@@ -42,4 +42,5 @@ const anotherId = Symbol("123")
 
 // +++++++++++++++  Memory  ++++++++++++++++++//
 
-// Stack (Primitive) , Heap (Non-Primitive)
+// Stack (Primitive)  (deep copy), Heap (shallow copy) (Non-Primitive)
+ 
