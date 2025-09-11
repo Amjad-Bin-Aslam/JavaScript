@@ -37,7 +37,7 @@ const y2 = x2++
 // console.log(x2 , y2)
 
  
-//Equality and compariosn operator works differently compariosn converts null into a number treatig it as zero thats why nill >= 0 is true
+//Equality and compariosn operator works differently compariosn converts null into a number treatig it as zero thats why null >= 0 is true
 console.log(null > 0)
 console.log(null == 0)
 console.log(null >= 0)
