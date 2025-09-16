@@ -52,11 +52,11 @@
     //     // console.log(code , index , coding)
     // }); 
     
-const coding = ['js' , 'ruby' , 'python' , 'cpp'] 
+// const coding = ['js' , 'ruby' , 'python' , 'cpp'] 
     
-function printme(item){
-    // console.log(item)
-}
+// function printme(item){
+//     // console.log(item)
+// }
 
 // coding.forEach(printme)
 
@@ -86,8 +86,13 @@ const myCoding = [
     
 ]
 
-myCoding.forEach(item => {
-    console.log(item.grade)
-});
 
+const coding = myCoding.map( (item) => {
+    return item.grade
+})
 
+console.log(coding) 
+
+// myCoding.forEach(item => {
+//     console.log(item.grade)
+// });
