@@ -98,7 +98,7 @@ const getAllUser = async () => {
 
 }
 getAllUser();
-
+ 
 
 // fetch("https://api.github.com/users/Amjad-Bin-Aslam")
 // .then((response)=>{
